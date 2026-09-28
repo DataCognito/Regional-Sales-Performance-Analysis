@@ -97,15 +97,6 @@ The final dashboard provides a single view of:
 
 This makes it easier to identify performance differences, monitor operational issues and investigate areas that may affect revenue and customer experience.
 
-## Tools Used
-
-`Excel` `Power Query` `Power BI` `DAX`
-
 ## Project Workflow
 
 **Raw Data → Cleaning → Transformation → Data Modelling → DAX → Analysis → Dashboard → Insights**
-
-## Note
-
-This is a portfolio project created to demonstrate data cleaning, analysis, data modelling and Power BI reporting skills. 
-It is not presented as work completed for a paid client.
