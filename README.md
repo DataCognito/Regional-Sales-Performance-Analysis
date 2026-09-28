@@ -1,59 +1,111 @@
-# Regional-Sales-Performance-Analysis
-Regional sales performance project using Excel, Power Query, and Power BI, where the data was cleaned, the faulty many‑to‑many model was fixed, and interactive dashboards were built to show revenue, discounts, returns, and shipping time for each manager and region in a clear way.
+# Regional Sales Performance Analysis
 
-**Project Overview and Objective**
-This project uses Excel and Power BI to analyse regional sales performance and manager results for an e commerce business. The main goal is to understand which products, regions, and managers drive revenue and where discounts, returns, and shipping time are low.
+### Excel | Power Query | Power BI | DAX
 
-**Data sources**
-Source Description & Timeline: UCI -> 2023 - 2025
-Domain: E - Commerce Sales Analysis
-Tools: Excel & Power Query for data cleaning and preparation
-           Power BI for data modelling, DAX measures, and interactive dashboards
+An end-to-end sales analysis project focused on cleaning raw sales data, correcting the data model, analysing business performance, and building an interactive Power BI dashboard.
 
-**Problem Statement**
-The current sales report is not reliable because the data model is incorrect. A many to many relationship between the sales table and the manager/region table makes key metrics hard to calculate and filter. This project rebuilds the model so revenue, discounts, returns, and shipping time can be analysed accurately by manager and region. It allows the business to clearly see how discounting and return rates affect net revenue, so they can protect profit and manage risk.
+## Business Problem
 
-**Tools & Technologies**
-Excel: Data cleaning and transformation.
-Power BI: Data modelling, DAX calculations, Data visualizations, and Dashboard creation.
+The original sales data contained an incorrect **many-to-many relationship** between the sales and manager/region data. This could lead to unreliable calculations and filtering.
 
-**Data Pre-Processing (Excel/ Power Query)**
-Tasks Performed 
-•	Data cleaning and transformation: Removed duplicate rows, checked for missing values, and standardised product, region, and manager names. 
-•	New calculated fields: Created columns for Net Revenue (Gross Sales – Discount), Average Order Value, Average Selling Price, Shipping Time (in days), and Return Flag. 
-•	Filtering and sorting: Filtered out test or invalid records and sorted data by date, region, and manager to prepare it for modelling in Power BI.
+The objective was to:
 
-**Data Modelling and DAX (Power BI)**
-Data model: Established relationships between tables and defined cardinality.
-Converted data into Fact and Dimension Table
+* Clean and prepare the raw data
+* Correct the data model
+* Analyse revenue and sales performance
+* Understand discounting and returns
+* Compare managers and regions
+* Analyse shipping performance
+* Build an interactive dashboard for business reporting
 
-Calculated Columns and DAX Measures: Implemented DAX formulas for key metrics, such as total sales, total net revenue, total quantity, total discount value, avg. order value, avg. selling price, Avg. shipping time (days), Return rate % and Total orders.
+## Dataset
 
-**Analysis and Visualizations (Power BI)**
-Dashboard features
-Multiple visualizations based on problem statement: Bar chart, line chart, donut chart, and tables and cumulative totals.
-Have made this report interactive with Drill-down, filters and slicers.
-Have used page navigation and enabled its action. 
+* **Domain:** E-commerce sales
+* **Period:** 2023–2025
+* **Orders:** 1,500
+* **Source:** UCI
+* **Data preparation:** Excel & Power Query
+* **Analysis & visualization:** Power BI
 
-**Insights and Conclusion**
-Key findings: 
-Overall financial performance: The audit covers 1,500 orders and a Total Net Revenue of about $4.38 million. The Average Order Value is around $2.92 thousand, showing a strong ticket size across transactions.
+## What I Worked On
 
-Manager and cost accountability: Total Net Sales per manager are quite similar, at roughly $4.7 million each. However, Ryan and Cameron give higher discounts, so their discounting strategy should be reviewed in more detail.
+### 1. Data Cleaning & Preparation
 
-Regional efficiency: Average Shipping Time is about 6.04 days across regions and stores. The Return Rate of 0.25 indicates a meaningful operational risk that needs attention.
+Using Excel and Power Query:
 
-Sales contribution: The top five products by revenue are Tablet, Laptop, Printer, Monitor, and Chair. These high value items drive most of the revenue and should remain a focus for sales and inventory planning.
-**Analysis insights**
-Descriptive and Diagnostic view:
-Sales show clear seasonality, with a noticeable drop between May and October. High return rates in high revenue regions (North, East, West) suggest a link between sales volume and returns, and point to possible fulfilment or quality issues.
+* Removed duplicate records
+* Checked missing values
+* Standardised product, region and manager names
+* Filtered invalid/test records
+* Prepared the data for analysis
 
-Predictive and Prescriptive view:
-The May–October slump is likely to repeat each year, so the business should plan campaigns and resources to stabilise revenue in that period. Reducing average shipping time and auditing heavy discounting for some managers can help improve both profit and customer experience.
+### 2. Data Modelling
 
-**Conclusion**
-This project cleans up the data model by fixing the many to many issue that was causing incorrect results. With the new dashboards, teams can clearly see revenue, discounts, returns, and shipping time for each manager and region, making it easier to plan actions and keep risks under control.
+In Power BI:
 
+* Restructured the incorrect many-to-many relationship
+* Created fact and dimension tables
+* Defined appropriate relationships and cardinality
+* Prepared the model for reliable reporting
 
+### 3. DAX & Business Metrics
 
+Created calculated columns and measures for:
 
+* Total Sales
+* Net Revenue
+* Total Quantity
+* Total Discount
+* Average Order Value
+* Average Selling Price
+* Average Shipping Time
+* Return Rate
+* Total Orders
+
+### 4. Power BI Dashboard
+
+The dashboard includes:
+
+* Revenue analysis
+* Manager performance
+* Regional performance
+* Product performance
+* Discount analysis
+* Return analysis
+* Shipping-time analysis
+* Interactive filters and slicers
+* Drill-down
+* Page navigation
+* Cumulative trend analysis
+
+## Key Findings
+
+* The analysis covered **1,500 orders** with total net revenue of approximately **$4.38 million**.
+* Average order value was approximately **$2.92K**.
+* Shipping time averaged approximately **6.04 days**.
+* The overall return rate was approximately **25%** based on the project dataset.
+* Tablet, Laptop, Printer, Monitor and Chair were among the highest-revenue products.
+* Higher discounting was observed for some managers and required further review.
+* Revenue showed a noticeable decline between May and October in the analysed period.
+* Several high-revenue regions also showed higher return rates, highlighting an area for further operational investigation.
+
+## Business Value
+
+The final dashboard provides a single view of:
+
+**Revenue → Discounts → Returns → Shipping → Manager Performance → Regional Performance**
+
+This makes it easier to identify performance differences, monitor operational issues and investigate areas that may affect revenue and customer experience.
+
+## Tools Used
+
+`Excel` `Power Query` `Power BI` `DAX`
+
+## Project Workflow
+
+**Raw Data → Cleaning → Transformation → Data Modelling → DAX → Analysis → Dashboard → Insights**
+
+## Note
+
+This is a portfolio project created to demonstrate data cleaning, analysis, data modelling and Power BI reporting skills. 
+It is not presented as work completed for a paid client.
