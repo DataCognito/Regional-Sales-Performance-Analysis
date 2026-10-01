@@ -81,13 +81,13 @@ The dashboard includes:
 ## Dashboard Preview
 
 ### Regional Performance & Efficiency Audit
-https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Dashboard%20page%201.png?raw=true
+![Regional Performance & Effiency Audit](https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Dashboard%20page%201.png?raw=true)
 
 ### Manager Accountability & Cost Audit
-https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Dashboard%20page%202.png?raw=true
+![Manager Accountability & Cost Audit](https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Dashboard%20page%202.png?raw=true)
 
 ### Data Model
-https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Data%20Model%20-%20Power%20BI.png?raw=true
+![Data Model](https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Data%20Model%20-%20Power%20BI.png?raw=true)
 
 ## Key Findings
 
