@@ -83,12 +83,15 @@ The dashboard includes:
 ### Regional Performance & Efficiency Audit
 
 ![Regional Performance Dashboard](Screenshots/Dashboard page 1.png)
+https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Dashboard%20page%201.png?raw=true
 
 ### Manager Accountability & Cost Audit
 ![Manager Accountability Dashboard](Screenshots/Dashboard page 2.png)
+https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Dashboard%20page%202.png?raw=true
 
 ### Data Model
 ![Power BI Data Model](Screenshots/Data Model - Power BI.png)
+https://github.com/DataCognito/Regional-Sales-Performance-Analysis/blob/main/Screenshots/Data%20Model%20-%20Power%20BI.png?raw=true
 
 ## Key Findings
 
