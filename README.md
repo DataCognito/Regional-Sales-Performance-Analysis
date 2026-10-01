@@ -78,6 +78,18 @@ The dashboard includes:
 * Page navigation
 * Cumulative trend analysis
 
+## Dashboard Preview
+
+### Regional Performance & Efficiency Audit
+
+![Regional Performance Dashboard](Screenshots/Dashboard page 1.png)
+
+### Manager Accountability & Cost Audit
+![Manager Accountability Dashboard](Screenshots/Dashboard page 2.png)
+
+### Data Model
+![Power BI Data Model](Screenshots/Data Model - Power BI.png)
+
 ## Key Findings
 
 * The analysis covered **1,500 orders** with total net revenue of approximately **$4.38 million**.
